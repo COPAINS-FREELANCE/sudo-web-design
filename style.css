@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    /* background-color: #a29b9b; */
+    color: #000000;
+  }
+  
+  header {
+    background-color: #2d3337;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  header h1{
+    color: rgb(0, 174, 255);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Services section */
+  section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(157, 180, 172);
+    background-image: url(./media/pngwing.com\ \(26\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  section ul {
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  section li:hover{
+    color: rgb(0, 117, 163);
+    font-size: 18px;
+    font-weight: 4px bold;
+  }
+  /* Team section */
+  .team{
+    display: flex;
+  }
+  .team-member {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid rgb(0, 117, 163);
+    border-radius: 5px;
+    margin: 20px;
+  }
+  .team-member:hover{
+    translate: 2px;
+  }
+  .team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 20px 0;
+    }
+    .container {
+      padding: 10px;
+    }
+    .team-member {
+      padding: 10px;
+    }
+  }
+  
